@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sport View Hotel — Kigali, Rwanda</title>
+  <meta name="description" content="Sport View Hotel in Kigali, Rwanda — rooms, pool, sports facilities and event spaces. Check availability and reserve online.">
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#09090b] font-sans antialiased tracking-tight text-zinc-100 selection:bg-violet-500/30 selection:text-white">
+  <header class="fixed inset-x-0 top-0 z-50 border-b border-white/[0.08] bg-zinc-950/85 backdrop-blur-md">
+    <nav class="mx-auto flex h-[76px] max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
+      <a href="#home" class="group flex shrink-0 items-center gap-3 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400" aria-label="Sport View Hotel home">
+        <img src="assets/images/logo.jpg" alt="Sport View Hotel logo" class="h-10 w-10 rounded-lg object-cover ring-1 ring-white/10 bg-white/[0.04] transition-opacity duration-300 group-hover:opacity-90">
+        <span class="hidden text-sm font-semibold tracking-tight text-zinc-100 sm:block">SPORT VIEW <span class="text-zinc-500">/ HOTEL</span></span>
+      </a>
+      
+
+      <div class="hidden items-center gap-8 md:flex">
+        <a data-nav-link href="#rooms" class="text-sm text-zinc-400 transition-colors duration-300 hover:text-zinc-100">Rooms</a>
+        <a data-nav-link href="#facilities" class="text-sm text-zinc-400 transition-colors duration-300 hover:text-zinc-100">Facilities</a>
+        <a data-nav-link href="#about" class="text-sm text-zinc-400 transition-colors duration-300 hover:text-zinc-100">The hotel</a>
+        <a data-nav-link href="#gallery" class="text-sm text-zinc-400 transition-colors duration-300 hover:text-zinc-100">Gallery</a>
+        <a data-nav-link href="#contact" class="text-sm text-zinc-400 transition-colors duration-300 hover:text-zinc-100">Contact</a>
+      </div>
+
+      <div class="ml-auto flex items-center gap-2 md:ml-0">
+        <a href="https://wa.me/250796161218" aria-label="Message Sport View Hotel on WhatsApp at 0796 161 218" class="inline-flex size-10 items-center justify-center gap-2 rounded-lg border border-white/10 text-zinc-300 transition-colors duration-300 hover:border-cyan-400/40 hover:text-cyan-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 lg:w-auto lg:px-3">
+          <svg viewBox="0 0 24 24" class="size-4 shrink-0" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M7.2 3.8h2.2l1.1 4.1-1.8 1.4a15 15 0 0 0 6 6l1.4-1.8 4.1 1.1v2.2a2 2 0 0 1-2.2 2A16.3 16.3 0 0 1 5.2 6a2 2 0 0 1 2-2.2Z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="hidden text-sm font-medium lg:inline">0796 161 218</span>
+        </a>
+        <a href="#contact" class="inline-flex min-h-10 items-center justify-center gap-2 rounded-lg bg-violet-600 px-4 text-sm font-semibold text-white transition-all duration-300 ease-in-out hover:bg-violet-500 hover:shadow-[0_0_20px_rgba(139,92,246,0.2)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950">
+          <span>Book a stay</span><span aria-hidden="true" class="text-violet-200">&#8599;</span>
+        </a>
+        <button data-menu-toggle type="button" class="grid size-10 place-items-center rounded-lg border border-white/10 text-zinc-300 transition-colors duration-300 hover:border-zinc-700 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 md:hidden" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-navigation">
+          <svg data-menu-icon-open viewBox="0 0 24 24" class="size-5" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg>
+          <svg data-menu-icon-close viewBox="0 0 24 24" class="hidden size-5" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </nav>
+    <div id="mobile-navigation" class="hidden border-t border-white/[0.08] bg-zinc-950 px-4 py-3 md:hidden">
+      <div class="mx-auto flex max-w-7xl flex-col">
+        <a data-nav-link href="#rooms" class="rounded-md px-3 py-3 text-sm text-zinc-400 transition-colors hover:bg-white/[0.04] hover:text-zinc-100">Rooms</a>
+        <a data-nav-link href="#facilities" class="rounded-md px-3 py-3 text-sm text-zinc-400 transition-colors hover:bg-white/[0.04] hover:text-zinc-100">Facilities</a>
+        <a data-nav-link href="#about" class="rounded-md px-3 py-3 text-sm text-zinc-400 transition-colors hover:bg-white/[0.04] hover:text-zinc-100">The hotel</a>
+        <a data-nav-link href="#gallery" class="rounded-md px-3 py-3 text-sm text-zinc-400 transition-colors hover:bg-white/[0.04] hover:text-zinc-100">Gallery</a>
+        <a data-nav-link href="#contact" class="rounded-md px-3 py-3 text-sm text-zinc-400 transition-colors hover:bg-white/[0.04] hover:text-zinc-100">Contact</a>
+        <a href="https://wa.me/250796161218" class="rounded-md px-3 py-3 text-sm font-medium text-cyan-300 transition-colors hover:bg-white/[0.04]" aria-label="Message Sport View Hotel on WhatsApp at 0796 161 218">WhatsApp 0796 161 218</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="pt-[76px]">
+    <section id="home" class="relative isolate scroll-mt-20 overflow-hidden border-b border-white/[0.08] bg-zinc-950">
+      <div class="absolute inset-0 -z-10" aria-hidden="true">
+        <img src="assets/images/hero-pool-aerial.png" alt="" class="h-full w-full object-cover opacity-35">
+        <div class="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/95 to-zinc-950/55"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-zinc-950/30"></div>
+      </div>
+
+      <div class="mx-auto grid min-h-[calc(100svh-76px)] max-w-7xl items-center gap-12 px-4 py-14 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16 lg:px-8 lg:py-20">
+        <div class="max-w-2xl" data-reveal>
+          <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-zinc-950/50 px-3 py-1.5 text-xs font-medium text-zinc-300 backdrop-blur-md">
+            <span class="size-1.5 rounded-full bg-cyan-400 shadow-[0_0_12px_rgba(34,211,238,0.7)]"></span>
+            Kigali stay
+          </div>
+          <h1 class="max-w-2xl text-4xl font-semibold leading-[1.08] tracking-tight text-zinc-100 sm:text-5xl lg:text-6xl">A quieter kind of <span class="text-zinc-500">city stay.</span></h1>
+          <p class="mt-6 max-w-xl text-base leading-7 text-zinc-400 sm:text-lg">A place to reset between the energy of Kigali and the calm of the pool. Find your room, check your dates, and let the details follow.</p>
+          <div class="mt-8 flex flex-wrap items-center gap-3">
+            <a href="#rooms" class="inline-flex min-h-12 items-center justify-center gap-2 rounded-lg bg-violet-600 px-5 text-sm font-semibold text-white transition-all duration-300 ease-in-out hover:bg-violet-500 hover:shadow-[0_0_20px_rgba(139,92,246,0.2)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950">Explore rooms <span aria-hidden="true">&#8594;</span></a>
+            <a href="#about" class="inline-flex min-h-12 items-center justify-center rounded-lg border border-white/10 px-5 text-sm font-medium text-zinc-300 transition-all duration-300 ease-in-out hover:border-zinc-700 hover:bg-white/[0.03] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400">Discover the hotel</a>
+          </div>
+
+          <form id="availability-form" class="search-widget mt-10 grid gap-3 rounded-xl border border-white/[0.08] bg-zinc-950/75 p-4 shadow-2xl backdrop-blur-md sm:grid-cols-2 lg:grid-cols-[1fr_1fr_0.8fr_auto] lg:items-end" novalidate>
+            <div class="min-w-0">
+              <label for="check-in" class="mb-2 block text-xs font-medium text-zinc-400">Check in</label>
+              <input type="date" id="check-in" name="check-in" required class="h-11 w-full min-w-0 rounded-lg border border-white/10 bg-white/[0.03] px-3 text-sm text-zinc-100 [color-scheme:dark] outline-none transition-colors focus:border-cyan-400/60 focus:ring-2 focus:ring-cyan-400/20">
+            </div>
+            <div class="min-w-0">
+              <label for="check-out" class="mb-2 block text-xs font-medium text-zinc-400">Check out</label>
+              <input type="date" id="check-out" name="check-out" required class="h-11 w-full min-w-0 rounded-lg border border-white/10 bg-white/[0.03] px-3 text-sm text-zinc-100 [color-scheme:dark] outline-none transition-colors focus:border-cyan-400/60 focus:ring-2 focus:ring-cyan-400/20">
+            </div>
+            <div class="min-w-0 sm:col-span-1">
+              <label for="guests" class="mb-2 block text-xs font-medium text-zinc-400">Guests</label>
+              <select id="guests" name="guests" class="h-11 w-full rounded-lg border border-white/10 bg-zinc-950 px-3 text-sm text-zinc-100 outline-none transition-colors focus:border-cyan-400/60 focus:ring-2 focus:ring-cyan-400/20">
+                <option>1 guest</option><option selected>2 guests</option><option>3 guests</option><option>4+ guests</option>
+              </select>
+            </div>
+            <button type="submit" class="inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-violet-600 px-4 text-sm font-semibold text-white transition-all duration-300 ease-in-out hover:bg-violet-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950 sm:col-span-2 lg:col-span-1">Check dates <span aria-hidden="true">&#8594;</span></button>
+            <p id="availability-status" class="hidden text-sm text-cyan-200 sm:col-span-2 lg:col-span-4" role="status" aria-live="polite"></p>
+          </form>
+          <p class="mt-3 text-xs text-zinc-500">Availability requests are currently confirmed by the hotel team.</p>
+        </div>
+
+        <div class="relative mx-auto w-full max-w-xl lg:ml-auto" data-reveal>
+          <div class="absolute -inset-5 rounded-3xl bg-violet-500/[0.08] blur-3xl" aria-hidden="true"></div>
+          <div class="relative overflow-hidden rounded-2xl border border-white/[0.1] bg-zinc-950/85 shadow-2xl backdrop-blur-md">
+            <div class="flex items-center justify-between border-b border-white/[0.08] px-4 py-3 sm:px-5">
+              <div class="flex items-center gap-2">
+                <span class="size-2 rounded-full bg-violet-400"></span><span class="size-2 rounded-full bg-cyan-400/70"></span><span class="size-2 rounded-full bg-zinc-700"></span>
+                <span class="ml-2 font-mono text-[11px] text-zinc-500">STAY_OVERVIEW / KGL</span>
+              </div>
+              <span class="rounded-full border border-cyan-400/20 bg-cyan-400/[0.07] px-2.5 py-1 font-mono text-[10px] uppercase tracking-wider text-cyan-300">On property</span>
+            </div>
+            <div class="relative aspect-[4/3] overflow-hidden">
+              <img src="assets/images/hero-pool-aerial.png" alt="Aerial view across the pool and green hotel grounds" class="h-full w-full object-cover opacity-85 transition-transform duration-700 ease-out hover:scale-[1.03]">
+              <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/10 to-transparent"></div>
+              <div class="absolute inset-x-0 bottom-0 p-5 sm:p-7">
+                <p class="font-mono text-[10px] uppercase tracking-[0.2em] text-cyan-300">A place to land</p>
+                <p class="mt-2 text-2xl font-semibold tracking-tight text-white sm:text-3xl">Poolside, in Kigali.</p>
+                <p class="mt-2 text-sm text-zinc-300">An easy rhythm for work, rest, and everything between.</p>
+              </div>
+            </div>
+            <div class="grid grid-cols-3 divide-x divide-white/[0.08] border-t border-white/[0.08]">
+              <div class="px-4 py-4 sm:px-5"><p class="font-mono text-[10px] text-zinc-500">SETTING</p><p class="mt-1 text-xs font-medium text-zinc-200 sm:text-sm">Pool &amp; garden</p></div>
+              <div class="px-4 py-4 sm:px-5"><p class="font-mono text-[10px] text-zinc-500">LOCATION</p><p class="mt-1 text-xs font-medium text-zinc-200 sm:text-sm">Kigali, RW</p></div>
+              <div class="px-4 py-4 sm:px-5"><p class="font-mono text-[10px] text-zinc-500">RESERVATIONS</p><p class="mt-1 text-xs font-medium text-cyan-300 sm:text-sm">By enquiry</p></div>
+            </div>
+          </div>
+          <div class="absolute -bottom-4 -left-3 hidden items-center gap-3 rounded-xl border border-white/10 bg-zinc-900/90 px-4 py-3 shadow-xl backdrop-blur-md sm:flex">
+            <span class="grid size-9 place-items-center rounded-lg bg-violet-500/10 text-violet-300"><svg viewBox="0 0 24 24" class="size-4" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 3v18m9-9H3" stroke-linecap="round"/></svg></span>
+            <div><p class="text-xs font-medium text-zinc-200">Your stay, your pace</p><p class="mt-0.5 text-[11px] text-zinc-500">A warm welcome is one message away</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rooms" class="scroll-mt-24 border-b border-white/[0.08] py-20 sm:py-28">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mb-10 flex flex-col justify-between gap-5 sm:mb-14 sm:flex-row sm:items-end" data-reveal>
+          <div><h2 class="text-3xl font-semibold tracking-tight text-zinc-100 sm:text-4xl">Space to settle in.</h2><p class="mt-3 max-w-xl text-sm leading-6 text-zinc-400 sm:text-base">Three ways to make the city feel a little more like your own. Rates are shared directly by the hotel.</p></div>
+          <a href="#contact" class="group inline-flex items-center gap-2 text-sm font-medium text-zinc-300 transition-colors hover:text-cyan-300">Ask about a stay <span class="transition-transform duration-300 group-hover:translate-x-1" aria-hidden="true">&#8594;</span></a>
+        </div>
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-3 md:gap-6">
+          <article data-reveal class="group overflow-hidden rounded-xl border border-white/[0.08] bg-white/[0.03] shadow-2xl transition-all duration-300 ease-in-out hover:-translate-y-1 hover:border-zinc-700 hover:shadow-[0_0_20px_rgba(139,92,246,0.15)]">
+            <div class="relative aspect-[4/3] overflow-hidden"><img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80" alt="Standard double room with a queen bed and guest seating" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"><span class="absolute left-4 top-4 rounded-full border border-white/15 bg-zinc-950/70 px-3 py-1 font-mono text-[10px] uppercase tracking-wider text-zinc-200 backdrop-blur-md">01 / Standard</span></div>
+            <div class="p-5 sm:p-6"><div class="flex items-start justify-between gap-4"><h3 class="text-lg font-semibold text-zinc-100">Standard Double</h3><span class="shrink-0 font-mono text-[11px] text-zinc-500">2 GUESTS</span></div><p class="mt-3 min-h-12 text-sm leading-6 text-zinc-400">A comfortable double room with garden-facing views, a work desk, and en-suite bathroom.</p><div class="mt-6 flex items-center justify-between border-t border-white/[0.08] pt-4"><span class="text-xs text-zinc-500">Rates by enquiry</span><a href="#contact" class="text-sm font-medium text-violet-300 transition-colors hover:text-cyan-300">Enquire <span aria-hidden="true">&#8594;</span></a></div></div>
+          </article>
+          <article data-reveal class="group overflow-hidden rounded-xl border border-white/[0.08] bg-white/[0.03] shadow-2xl transition-all duration-300 ease-in-out hover:-translate-y-1 hover:border-zinc-700 hover:shadow-[0_0_20px_rgba(139,92,246,0.15)]">
+            <div class="relative aspect-[4/3] overflow-hidden"><img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=80" alt="Refined executive room prepared for a longer stay" class="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-[1.04]"><span class="absolute left-4 top-4 rounded-full border border-white/15 bg-zinc-950/70 px-3 py-1 font-mono text-[10px] uppercase tracking-wider text-zinc-200 backdrop-blur-md">02 / Executive</span></div>
+            <div class="p-5 sm:p-6"><div class="flex items-start justify-between gap-4"><h3 class="text-lg font-semibold text-zinc-100">Executive Room</h3><span class="shrink-0 font-mono text-[11px] text-zinc-500">2-3 GUESTS</span></div><p class="mt-3 min-h-12 text-sm leading-6 text-zinc-400">Extra room to unwind, with a king bed and thoughtful comforts for a longer visit.</p><div class="mt-6 flex items-center justify-between border-t border-white/[0.08] pt-4"><span class="text-xs text-zinc-500">Rates by enquiry</span><a href="#contact" class="text-sm font-medium text-violet-300 transition-colors hover:text-cyan-300">Enquire <span aria-hidden="true">&#8594;</span></a></div></div>
+          </article>
+          <article data-reveal class="group overflow-hidden rounded-xl border border-white/[0.08] bg-white/[0.03] shadow-2xl transition-all duration-300 ease-in-out hover:-translate-y-1 hover:border-zinc-700 hover:shadow-[0_0_20px_rgba(139,92,246,0.15)]">
+            <div class="relative aspect-[4/3] overflow-hidden"><img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=900&q=80" alt="Spacious deluxe suite with lounge seating and king bed" class="h-full w-full object-cover object-right transition-transform duration-700 group-hover:scale-[1.04]"><span class="absolute left-4 top-4 rounded-full border border-white/15 bg-zinc-950/70 px-3 py-1 font-mono text-[10px] uppercase tracking-wider text-zinc-200 backdrop-blur-md">03 / Suite</span></div>
+            <div class="p-5 sm:p-6"><div class="flex items-start justify-between gap-4"><h3 class="text-lg font-semibold text-zinc-100">Deluxe Suite</h3><span class="shrink-0 font-mono text-[11px] text-zinc-500">2-4 GUESTS</span></div><p class="mt-3 min-h-12 text-sm leading-6 text-zinc-400">A more spacious layout with a king bed and room to share a slower, more private stay.</p><div class="mt-6 flex items-center justify-between border-t border-white/[0.08] pt-4"><span class="text-xs text-zinc-500">Rates by enquiry</span><a href="#contact" class="text-sm font-medium text-violet-300 transition-colors hover:text-cyan-300">Enquire <span aria-hidden="true">&#8594;</span></a></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="scroll-mt-24 border-b border-white/[0.08]">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <article data-reveal class="grid items-center gap-10 border-b border-white/[0.08] py-16 sm:gap-14 sm:py-24 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
+          <div class="max-w-xl py-2 lg:py-8"><h2 class="text-3xl font-semibold leading-tight tracking-tight text-zinc-100 sm:text-4xl">A softer landing after a full day.</h2><p class="mt-5 text-sm leading-7 text-zinc-400 sm:text-base">Settle into a calm, considered room, then take the evening at your own pace. Whether Kigali is a quick stop or a longer stay, the essentials are close at hand.</p><a href="#rooms" class="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-zinc-200 transition-colors hover:text-cyan-300">Explore accommodation <span aria-hidden="true">&#8594;</span></a><div class="mt-10 grid max-w-sm grid-cols-2 gap-4 border-t border-white/[0.08] pt-5"><div><p class="font-mono text-[10px] uppercase tracking-wider text-zinc-500">ROOMS</p><p class="mt-2 text-sm text-zinc-200">Rest, your way</p></div><div><p class="font-mono text-[10px] uppercase tracking-wider text-zinc-500">SERVICE</p><p class="mt-2 text-sm text-zinc-200">Personal welcome</p></div></div></div>
+          <figure class="relative ml-auto w-full max-w-lg"><div class="absolute -inset-3 rounded-2xl border border-violet-400/10" aria-hidden="true"></div><img src="assets/images/room-standard.jpg" alt="A welcoming guest room with a queen bed and seating" class="relative aspect-[4/5] w-full rounded-xl object-cover"><figcaption class="absolute bottom-4 left-4 rounded-lg border border-white/10 bg-zinc-950/80 px-3 py-2 font-mono text-[10px] uppercase tracking-wider text-zinc-300 backdrop-blur-md">ROOM 01 / STANDARD DOUBLE</figcaption></figure>
+        </article>
+
+        <article data-reveal class="grid items-center gap-10 py-16 sm:gap-14 sm:py-24 lg:grid-cols-[1.1fr_0.9fr] lg:gap-20">
+          <figure class="relative order-2 w-full max-w-lg lg:order-1"><img src="assets/images/the%20hotel.png" alt="Hotel exterior and grounds" class="aspect-[4/3] w-full rounded-xl object-cover"><figcaption class="absolute bottom-4 left-4 rounded-lg border border-white/10 bg-zinc-950/80 px-3 py-2 font-mono text-[10px] uppercase tracking-wider text-zinc-300 backdrop-blur-md">HOTEL / EXTERIOR</figcaption></figure>
+          <div class="order-1 max-w-xl lg:order-2 lg:ml-auto"><h2 class="text-3xl font-semibold leading-tight tracking-tight text-zinc-100 sm:text-4xl">A change of pace, built in.</h2><p class="mt-5 text-sm leading-7 text-zinc-400 sm:text-base">Move between poolside afternoons, a meal in the lounge, and the energy of the city. Sport View brings the parts of a good stay together in one easy setting.</p><a href="#facilities" class="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-zinc-200 transition-colors hover:text-cyan-300">See hotel facilities <span aria-hidden="true">&#8594;</span></a><p class="mt-10 border-t border-white/[0.08] pt-5 font-mono text-xs text-zinc-500">KIGALI, RWANDA <span class="mx-2 text-zinc-700">/</span> Pool <span class="mx-2 text-zinc-700">/</span> Dining <span class="mx-2 text-zinc-700">/</span> Sport</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="facilities" class="scroll-mt-24 border-b border-white/[0.08] py-20 sm:py-28">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mb-10 max-w-2xl sm:mb-14"><h2 class="text-3xl font-semibold tracking-tight text-zinc-100 sm:text-4xl">A few good ways to spend the day.</h2><p class="mt-3 text-sm leading-6 text-zinc-400 sm:text-base">Spaces to recharge, gather, and keep moving. Some details are still being confirmed with the property.</p></div>
+        <div data-reveal class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 lg:gap-5">
+          <article class="group rounded-xl border border-white/[0.08] bg-white/[0.03] p-5 shadow-2xl transition-all duration-300 ease-in-out hover:border-zinc-700 hover:bg-white/[0.05] sm:p-6"><span class="grid size-10 place-items-center rounded-lg border border-cyan-400/15 bg-cyan-400/[0.06] font-mono text-sm text-cyan-300">01</span><h3 class="mt-6 text-base font-semibold text-zinc-100">Swimming pool</h3><p class="mt-2 text-sm leading-6 text-zinc-400">Open-air water and a place to slow down between plans.</p><span class="mt-6 block border-t border-white/[0.08] pt-4 font-mono text-[10px] uppercase tracking-wider text-zinc-500">Poolside / Outdoor</span></article>
+          <article class="group rounded-xl border border-white/[0.08] bg-white/[0.03] p-5 shadow-2xl transition-all duration-300 ease-in-out hover:border-zinc-700 hover:bg-white/[0.05] sm:p-6"><span class="grid size-10 place-items-center rounded-lg border border-violet-400/15 bg-violet-400/[0.06] font-mono text-sm text-violet-300">02</span><h3 class="mt-6 text-base font-semibold text-zinc-100">Fitness &amp; sport</h3><p class="mt-2 text-sm leading-6 text-zinc-400">Keep your routine close while you are away from home.</p><span class="mt-6 block border-t border-white/[0.08] pt-4 font-mono text-[10px] uppercase tracking-wider text-zinc-500">Facility details / Confirming</span></article>
+          <article class="group rounded-xl border border-white/[0.08] bg-white/[0.03] p-5 shadow-2xl transition-all duration-300 ease-in-out hover:border-zinc-700 hover:bg-white/[0.05] sm:p-6"><span class="grid size-10 place-items-center rounded-lg border border-cyan-400/15 bg-cyan-400/[0.06] font-mono text-sm text-cyan-300">03</span><h3 class="mt-6 text-base font-semibold text-zinc-100">Restaurant &amp; bar</h3><p class="mt-2 text-sm leading-6 text-zinc-400">A relaxed lounge with views across the pool and garden.</p><span class="mt-6 block border-t border-white/[0.08] pt-4 font-mono text-[10px] uppercase tracking-wider text-zinc-500">Dining / On site</span></article>
+          <article class="group rounded-xl border border-white/[0.08] bg-white/[0.03] p-5 shadow-2xl transition-all duration-300 ease-in-out hover:border-zinc-700 hover:bg-white/[0.05] sm:p-6"><span class="grid size-10 place-items-center rounded-lg border border-violet-400/15 bg-violet-400/[0.06] font-mono text-sm text-violet-300">04</span><h3 class="mt-6 text-base font-semibold text-zinc-100">Events &amp; meetings</h3><p class="mt-2 text-sm leading-6 text-zinc-400">Ask the team about hosting a gathering or group stay.</p><span class="mt-6 block border-t border-white/[0.08] pt-4 font-mono text-[10px] uppercase tracking-wider text-zinc-500">By enquiry / Details pending</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="scroll-mt-24 border-b border-white/[0.08] py-20 sm:py-28">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="mb-8 flex flex-col justify-between gap-5 sm:flex-row sm:items-end"><div><h2 class="text-3xl font-semibold tracking-tight text-zinc-100 sm:text-4xl">A sense of place.</h2><p class="mt-3 text-sm text-zinc-400">A few frames from around the hotel.</p></div><div id="gallery-filters" class="flex flex-wrap gap-2" aria-label="Filter gallery photos"><button type="button" data-filter="all" aria-pressed="true" class="rounded-full border border-violet-400/40 bg-violet-400/10 px-3.5 py-2 text-xs font-medium text-violet-200 transition-all duration-300 hover:border-violet-300/60">All</button><button type="button" data-filter="exterior" aria-pressed="false" class="rounded-full border border-white/10 px-3.5 py-2 text-xs font-medium text-zinc-400 transition-all duration-300 hover:border-zinc-700 hover:text-zinc-100">Exterior &amp; pool</button><button type="button" data-filter="rooms" aria-pressed="false" class="rounded-full border border-white/10 px-3.5 py-2 text-xs font-medium text-zinc-400 transition-all duration-300 hover:border-zinc-700 hover:text-zinc-100">Rooms</button><button type="button" data-filter="restaurant" aria-pressed="false" class="rounded-full border border-white/10 px-3.5 py-2 text-xs font-medium text-zinc-400 transition-all duration-300 hover:border-zinc-700 hover:text-zinc-100">Restaurant</button></div></div>
+        <div id="gallery-grid" data-reveal class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <figure data-category="exterior" class="group relative min-h-72 overflow-hidden rounded-xl border border-white/[0.08] bg-zinc-900 sm:col-span-2 sm:row-span-2"><img src="assets/images/hero-pool-aerial.png" alt="Aerial view of the pool and hotel grounds" class="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"><div class="absolute inset-0 bg-gradient-to-t from-zinc-950/90 via-transparent to-transparent"></div><figcaption class="absolute bottom-4 left-4 font-mono text-xs uppercase tracking-wider text-white">Pool &amp; courtyard</figcaption></figure>
+          <figure data-category="rooms" class="group relative min-h-56 overflow-hidden rounded-xl border border-white/[0.08] bg-zinc-900"><img src="assets/images/room-standard.jpg" alt="Guest room interior" class="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"><div class="absolute inset-0 bg-gradient-to-t from-zinc-950/90 via-transparent to-transparent"></div><figcaption class="absolute bottom-4 left-4 font-mono text-xs uppercase tracking-wider text-white">Guest rooms</figcaption></figure>
+          <figure data-category="restaurant" class="group relative min-h-56 overflow-hidden rounded-xl border border-white/[0.08] bg-zinc-900"><img src="assets/images/lounge-bar.jpg" alt="Lounge and bar area overlooking the pool" class="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"><div class="absolute inset-0 bg-gradient-to-t from-zinc-950/90 via-transparent to-transparent"></div><figcaption class="absolute bottom-4 left-4 font-mono text-xs uppercase tracking-wider text-white">Restaurant &amp; bar</figcaption></figure>
+          <figure data-category="exterior" class="group relative min-h-56 overflow-hidden rounded-xl border border-white/[0.08] bg-zinc-900 sm:col-span-2"><img src="assets/images/the%20hotel.png" alt="Hotel exterior and grounds" class="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"><div class="absolute inset-0 bg-gradient-to-t from-zinc-950/90 via-transparent to-transparent"></div><figcaption class="absolute bottom-4 left-4 font-mono text-xs uppercase tracking-wider text-white">Hotel / exterior</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="scroll-mt-24 py-20 sm:py-28">
+      <div data-reveal class="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20 lg:px-8">
+        <div class="max-w-lg"><h2 class="text-3xl font-semibold tracking-tight text-zinc-100 sm:text-4xl">Your next stay starts here.</h2><p class="mt-4 text-sm leading-7 text-zinc-400 sm:text-base">Tell us what brings you to Kigali. The hotel team can help with room options, dates, and details that make the visit yours.</p><div class="mt-8 space-y-5 border-t border-white/[0.08] pt-5"><div><p class="font-mono text-[10px] uppercase tracking-wider text-zinc-500">WHATSAPP THE HOTEL</p><a href="https://wa.me/250796161218" class="mt-2 inline-flex text-sm font-medium text-cyan-300 transition-colors hover:text-cyan-200" aria-label="Message Sport View Hotel on WhatsApp at 0796 161 218">0796 161 218</a></div><div><p class="font-mono text-[10px] uppercase tracking-wider text-zinc-500">FIND US</p><a href="https://www.google.com/maps/search/?api=1&amp;query=KK+27+Ave%2C+Niboye%2C+Kicukiro+District%2C+Kigali%2C+Rwanda" target="_blank" rel="noopener noreferrer" class="mt-2 block text-sm leading-6 text-zinc-300 transition-colors hover:text-cyan-300">KK 27 Ave, Niboye, Kicukiro District, Kigali, Rwanda</a><p class="mt-1 text-xs leading-5 text-zinc-500">Niboye / Gatare, near Kagarama Sector Office</p></div><p class="text-xs text-zinc-500">A member of the hotel team will be in touch after your enquiry.</p></div></div>
+        <form id="contact-form" class="grid gap-4 rounded-2xl border border-white/[0.08] bg-white/[0.03] p-5 shadow-2xl sm:grid-cols-2 sm:gap-5 sm:p-7" novalidate>
+          <div><label for="contact-name" class="mb-2 block text-xs font-medium text-zinc-300">Full name <span class="text-violet-300">*</span></label><input type="text" id="contact-name" name="name" autocomplete="name" placeholder="Your name" required class="h-12 w-full rounded-lg border border-white/10 bg-zinc-950/70 px-4 text-sm text-zinc-100 outline-none transition-all duration-300 placeholder:text-zinc-600 focus:border-violet-400/60 focus:ring-2 focus:ring-violet-500/15"></div>
+          <div><label for="contact-email" class="mb-2 block text-xs font-medium text-zinc-300">Email address <span class="text-violet-300">*</span></label><input type="email" id="contact-email" name="email" autocomplete="email" placeholder="you@example.com" required class="h-12 w-full rounded-lg border border-white/10 bg-zinc-950/70 px-4 text-sm text-zinc-100 outline-none transition-all duration-300 placeholder:text-zinc-600 focus:border-violet-400/60 focus:ring-2 focus:ring-violet-500/15"></div>
+          <div><label for="contact-phone" class="mb-2 block text-xs font-medium text-zinc-300">Phone <span class="text-zinc-600">(optional)</span></label><input type="tel" id="contact-phone" name="phone" autocomplete="tel" placeholder="Your phone number" class="h-12 w-full rounded-lg border border-white/10 bg-zinc-950/70 px-4 text-sm text-zinc-100 outline-none transition-all duration-300 placeholder:text-zinc-600 focus:border-violet-400/60 focus:ring-2 focus:ring-violet-500/15"></div>
+          <div><label for="contact-subject" class="mb-2 block text-xs font-medium text-zinc-300">Enquiry type <span class="text-violet-300">*</span></label><select id="contact-subject" name="subject" required class="h-12 w-full rounded-lg border border-white/10 bg-zinc-950 px-4 text-sm text-zinc-300 outline-none transition-all duration-300 focus:border-violet-400/60 focus:ring-2 focus:ring-violet-500/15"><option value="" selected disabled>Select a topic</option><option value="booking">New booking</option><option value="reservation">Existing reservation</option><option value="events">Events &amp; facilities</option><option value="other">Something else</option></select></div>
+          <div class="sm:col-span-2"><label for="contact-message" class="mb-2 block text-xs font-medium text-zinc-300">How can we help? <span class="text-violet-300">*</span></label><textarea id="contact-message" name="message" rows="4" placeholder="Share a few details about your stay" required class="w-full resize-y rounded-lg border border-white/10 bg-zinc-950/70 px-4 py-3 text-sm text-zinc-100 outline-none transition-all duration-300 placeholder:text-zinc-600 focus:border-violet-400/60 focus:ring-2 focus:ring-violet-500/15"></textarea></div>
+          <div class="sm:col-span-2"><button type="submit" class="inline-flex min-h-12 items-center justify-center gap-2 rounded-lg bg-violet-600 px-5 text-sm font-semibold text-white transition-all duration-300 ease-in-out hover:bg-violet-500 hover:shadow-[0_0_20px_rgba(139,92,246,0.2)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950">Send enquiry <span aria-hidden="true">&#8594;</span></button></div>
+          <p id="contact-form-status" class="hidden text-sm text-cyan-200 sm:col-span-2" role="status" aria-live="polite">Thank you for your enquiry.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/[0.08] bg-zinc-950/80">
+    <div class="mx-auto flex max-w-7xl flex-col gap-5 px-4 py-8 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8">
+      <a href="#home" class="text-sm font-semibold tracking-tight text-zinc-300">SPORT VIEW <span class="text-zinc-500">/ HOTEL</span></a>
+      <p class="text-xs text-zinc-500">&copy; 2026 Sport View Hotel <span class="mx-2 text-zinc-700">/</span> Kigali, Rwanda</p>
+      <div class="ml-[-0.5rem] flex items-center gap-4 text-xs text-zinc-500 sm:gap-5">
+        <a href="https://www.instagram.com/sportsparkkigali" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="inline-flex h-4 w-4 transition-colors hover:text-zinc-200">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="h-full w-full fill-current">
+            <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5A5.5 5.5 0 1 1 6.5 13 5.5 5.5 0 0 1 12 7.5Zm0 2A3.5 3.5 0 1 0 15.5 13 3.5 3.5 0 0 0 12 9.5Zm5.25-3.25a1.25 1.25 0 1 1-1.25 1.25 1.25 1.25 0 0 1 1.25-1.25Z"/>
+          </svg>
+        </a>
+        <a href="https://www.google.com/maps/place/SportsPark+Kigali/@-1.9900625,30.1011875,17z/data=!3m1!4b1!4m6!3m5!1s0x19dca79d08ab6bf1:0x7d40a5568b4889e0!8m2!3d-1.9900625!4d30.1011875!16s%2Fg%2F11xggrnx82!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Open SportsPark Kigali location in Google Maps" class="inline-flex h-4 w-4 transition-colors hover:text-zinc-200">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="h-full w-full fill-current">
+            <path d="M12 2.75a7.25 7.25 0 0 0-7.25 7.25c0 5.59 7.25 11.25 7.25 11.25S19.25 15.59 19.25 10A7.25 7.25 0 0 0 12 2.75Zm0 9.75a2.5 2.5 0 1 1 2.5-2.5A2.5 2.5 0 0 1 12 12.5Z"/>
+          </svg>
+        </a>
+        <a href="#rooms" class="transition-colors hover:text-zinc-200">Rooms</a><a href="#contact" class="transition-colors hover:text-zinc-200">Contact</a><a href="#home" class="transition-colors hover:text-zinc-200">Back to top &uarr;</a>
+      </div>
+      <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var revealTargets = document.querySelectorAll('[data-reveal]');
+      var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if ('IntersectionObserver' in window && 'animate' in Element.prototype && !prefersReducedMotion) {
+        var revealDelays = new WeakMap();
+        var revealObserver = new IntersectionObserver(function (entries, observer) {
+          entries.forEach(function (entry) {
+            if (!entry.isIntersecting) return;
+            entry.target.animate([
+              { opacity: 0, transform: 'translateY(24px)', filter: 'blur(2px)' },
+              { opacity: 1, transform: 'translateY(0)', filter: 'blur(0)' }
+            ], {
+              duration: 700,
+              delay: revealDelays.get(entry.target),
+              easing: 'cubic-bezier(0.22, 1, 0.36, 1)',
+              fill: 'both'
+            });
+            observer.unobserve(entry.target);
+          });
+        }, { threshold: 0.12, rootMargin: '0px 0px -48px 0px' });
+
+        revealTargets.forEach(function (target, index) {
+          target.animate([
+            { opacity: 0, transform: 'translateY(24px)', filter: 'blur(2px)' },
+            { opacity: 0, transform: 'translateY(24px)', filter: 'blur(2px)' }
+          ], { duration: 1, fill: 'both' });
+          revealDelays.set(target, (index % 4) * 75);
+          revealObserver.observe(target);
+        });
+      }
+
+      var navLinks = document.querySelectorAll('[data-nav-link]');
+      var sections = document.querySelectorAll('main section[id]');
+
+      function setActiveLink(id) {
+        navLinks.forEach(function (link) {
+          var active = link.getAttribute('href') === '#' + id;
+          link.classList.toggle('text-violet-300', active);
+          link.classList.toggle('text-zinc-400', !active);
+          link.setAttribute('aria-current', active ? 'location' : 'false');
+        });
+      }
+
+      function onScroll() {
+        var scrollPosition = window.scrollY + 150;
+        var currentId = 'home';
+        sections.forEach(function (section) {
+          if (scrollPosition >= section.offsetTop) currentId = section.id;
+        });
+        setActiveLink(currentId);
+      }
+
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+
+      var menuToggle = document.querySelector('[data-menu-toggle]');
+      var mobileNavigation = document.getElementById('mobile-navigation');
+      if (menuToggle && mobileNavigation) {
+        function closeMenu() {
+          mobileNavigation.classList.add('hidden');
+          menuToggle.setAttribute('aria-expanded', 'false');
+          menuToggle.setAttribute('aria-label', 'Open navigation menu');
+          menuToggle.querySelector('[data-menu-icon-open]').classList.remove('hidden');
+          menuToggle.querySelector('[data-menu-icon-close]').classList.add('hidden');
+        }
+        menuToggle.addEventListener('click', function () {
+          var isOpening = mobileNavigation.classList.contains('hidden');
+          mobileNavigation.classList.toggle('hidden', !isOpening);
+          menuToggle.setAttribute('aria-expanded', String(isOpening));
+          menuToggle.setAttribute('aria-label', isOpening ? 'Close navigation menu' : 'Open navigation menu');
+          menuToggle.querySelector('[data-menu-icon-open]').classList.toggle('hidden', isOpening);
+          menuToggle.querySelector('[data-menu-icon-close]').classList.toggle('hidden', !isOpening);
+        });
+        mobileNavigation.querySelectorAll('a').forEach(function (link) {
+          link.addEventListener('click', closeMenu);
+        });
+        window.addEventListener('resize', function () {
+          if (window.innerWidth >= 768) closeMenu();
+        });
+      }
+
+      var availabilityForm = document.getElementById('availability-form');
+      if (availabilityForm) {
+        availabilityForm.addEventListener('submit', function (event) {
+          event.preventDefault();
+          var checkIn = document.getElementById('check-in');
+          var checkOut = document.getElementById('check-out');
+          var status = document.getElementById('availability-status');
+          status.classList.remove('hidden');
+          if (!checkIn.value || !checkOut.value) {
+            status.textContent = 'Choose both check-in and check-out dates to continue.';
+            (!checkIn.value ? checkIn : checkOut).focus();
+            return;
+          }
+          if (new Date(checkOut.value) <= new Date(checkIn.value)) {
+            status.textContent = 'Check-out must be later than check-in.';
+            checkOut.focus();
+            return;
+          }
+          status.textContent = 'Dates noted. Please send an enquiry and the hotel team will confirm availability.';
+        });
+      }
+
+      var galleryFilters = document.getElementById('gallery-filters');
+      if (galleryFilters) {
+        galleryFilters.addEventListener('click', function (event) {
+          var button = event.target.closest('button[data-filter]');
+          if (!button) return;
+          var filter = button.dataset.filter;
+          galleryFilters.querySelectorAll('button[data-filter]').forEach(function (filterButton) {
+            var active = filterButton === button;
+            filterButton.setAttribute('aria-pressed', String(active));
+            filterButton.classList.toggle('border-violet-400/40', active);
+            filterButton.classList.toggle('bg-violet-400/10', active);
+            filterButton.classList.toggle('text-violet-200', active);
+            filterButton.classList.toggle('border-white/10', !active);
+            filterButton.classList.toggle('text-zinc-400', !active);
+          });
+          document.querySelectorAll('#gallery-grid figure').forEach(function (figure) {
+            figure.classList.toggle('hidden', filter !== 'all' && figure.dataset.category !== filter);
+          });
+        });
+      }
+
+      var contactForm = document.getElementById('contact-form');
+      if (contactForm) {
+        contactForm.addEventListener('submit', function (event) {
+          event.preventDefault();
+          if (!contactForm.reportValidity()) return;
+          document.getElementById('contact-form-status').classList.remove('hidden');
+        });
+      }
+    });
+  </script>
+</body>
+</html>
