@@ -1,0 +1,6 @@
+# Allow all search engine crawlers to access the site
+User-agent: *
+Allow: /
+
+# Hostname and Sitemap location
+Sitemap: https://sport-view-six.vercel.app/sitemap.xml
